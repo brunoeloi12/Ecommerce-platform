@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "biome check .",
+    "format": "biome format --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,6 +20,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "^2.5.9",
     "@types/node": "^26.2.0",
     "turbo": "^2.10.10",
     "typescript": "^7.0.2"
