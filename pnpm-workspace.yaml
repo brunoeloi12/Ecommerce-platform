@@ -2,3 +2,6 @@ packages:
   - 'apps/*'
   - 'packages/*'
   - 'plugins/*'
+allowBuilds:
+  es5-ext: true
+  esbuild: true
